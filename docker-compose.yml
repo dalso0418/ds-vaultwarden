@@ -11,4 +11,4 @@ services:
       - ./data:/data
     environment:
       - TZ=Asia/Seoul
-      #- ADMIN_TOKEN=password (#option PW까먹었을때)
+      #- ADMIN_TOKEN=password #PW까먹었을때https://[domain]/admin
