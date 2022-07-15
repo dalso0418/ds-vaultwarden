@@ -7,6 +7,6 @@ db는 sqlite에 자동으로 저장되며 ./data에 쌓입니다.<br>
 <br>
 
 # 사용법
-git clone https://github.com/dalso0418/vaultwarden.git<br>
+git clone https://github.com/dalso0418/ds-vaultwarden.git<br>
 cd ds-vaultwarden<br>
 docker-compose up -d<br>
