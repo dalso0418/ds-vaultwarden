@@ -1,1 +1,14 @@
-a
+version: '3.1'
+
+services:
+  vaultwarden:
+    container_name: vaultwarden
+    image: vaultwarden/server
+    restart: always
+    ports:
+      - 8088:80
+    volumes:
+      - ./data:/data
+    environment:
+      - TZ=Asia/Seoul
+      - ADMIN_TOKEN=password
